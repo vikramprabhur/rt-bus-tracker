@@ -1,7 +1,7 @@
 # Real Time Bus Tracker
 
 ## Description:
-  - This page tracks, in real time, the buses currently en route in Massachusetts Bus Route 1.
+  - This page tracks, in real time, the buses currently en route on Massachusetts Bus Route 1.
   - The Red Markers track the buses Outbound from Harvard Square.
   - The Blue Markers track the buses Inbound to Nubian Station.
   - The page obtains live data, every twenty seconds, from MBTA.
