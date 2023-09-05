@@ -1,0 +1,52 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(252, 250, 81, 0.221);
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3em;
+    color: darkblue;
+    text-align: center;
+}
+
+#map {
+    position: absolute;
+    width: 900px; 
+    height: 700px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.description {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    color: darkblue;
+    text-align: center;
+}
+
+.container {
+display: grid;
+grid-template-columns: 1fr 1fr;
+justify-content: center;
+position: fixed;
+left: 50%;
+bottom: 20px;
+transform: translate(-50%, -50%);
+margin: 0 auto;
+}
+
+.marker{
+   margin-left: 30px;
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
